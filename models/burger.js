@@ -7,7 +7,7 @@ const burger = {
         });
     },
 
-    inserOne: (columnNames, columnValues, cb) => {
+    insertOne: (columnNames, columnValues, cb) => {
         orm.insertOne('burgers', columnNames, columnValues, (res) => {
             cb(res);
         });
