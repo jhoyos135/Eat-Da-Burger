@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Poppins');
 
 body {
-    background: f6f6f6;
+    background: url('https://stmed.net/sites/default/files/restaurant-wallpapers-28840-5067949.jpg');
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     overflow: hidden;
+}
+
+.container-fluid {
+    background: rgba(255,255,255,0.8);
+    height: 100vh;
 }
 
 :root {
@@ -19,7 +27,7 @@ h1, h2, h3, h4 ,h5 {
 p {
     font-family: var(--para);
     font-size: 1.5em;
-    color: orange;
+    color: black;
 }
 
 .scrollable {
@@ -31,4 +39,7 @@ p {
 
 .form-check-input {
     margin: 0 10px !important;
+}
+.form-inline {
+    justify-content: center;
 }
