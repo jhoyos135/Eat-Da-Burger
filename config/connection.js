@@ -1,10 +1,11 @@
-var mysql = require("mysql");
+const mysql = require("mysql");
+const keys = require('./keys')
 
-var connection = mysql.createConnection({
-  host: "localhost",
+const connection = mysql.createConnection({
+  host: "eat-da-burger.cqpxxyfzqyx0.us-east-2.rds.amazonaws.com",
   port: 3306,
   user: "root",
-  password: "",
+  password: keys.sqlPassword,
   database: "burgers_db"
 });
 
