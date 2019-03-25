@@ -1,5 +1,5 @@
 module.exports = {
-    sqlHost: process.env.SQL_HOST,
-    sqlPassword: process.env.SQL_PASSWORD,
+    sqlHost: process.env.RDS_HOSTNAME,
+    sqlPassword: process.env.RDS_PASSWORD,
 
 };
