@@ -1,4 +1,5 @@
 module.exports = {
-    sqlPassword: process.env.SQL_PASSWORD,
     sqlHost: process.env.SQL_HOST,
+    sqlPassword: process.env.SQL_PASSWORD,
+
 };
