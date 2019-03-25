@@ -8,5 +8,5 @@ Express\
 MySql\
 Handlebars
 
-Aws EC2 Deployment Link:\
+\
 []()
