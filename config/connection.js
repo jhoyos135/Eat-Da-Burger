@@ -1,6 +1,5 @@
 const mysql = require("mysql");
-const keys = require('./keys')
-
+const keys = require('./keys');
 
   var connection = mysql.createConnection({
     host: keys.sqlHost,
