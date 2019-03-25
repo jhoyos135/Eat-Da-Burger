@@ -1,8 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
-const PORT = process.env.PORT || 4000;
-
 const app = express();
 
 app.use(express.static("public"));
@@ -17,6 +15,8 @@ app.set("view engine", "handlebars");
 const routes = require("./controllers/burgers_controller");
 
 app.use(routes);
+const PORT = process.env.PORT || 80;
+
 
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}`);
