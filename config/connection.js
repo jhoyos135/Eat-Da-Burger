@@ -10,8 +10,6 @@ const keys = require('./keys');
   });
 
 
-
-
 connection.connect(function(err) {
   if (err) {throw err;}
   
